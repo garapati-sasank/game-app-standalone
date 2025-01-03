@@ -2,11 +2,10 @@ import { Component, inject } from '@angular/core';
 import { Router, RouterOutlet } from '@angular/router';
 
 @Component({
-  selector: 'app-soccer',
-  standalone: true,
-  imports: [RouterOutlet],
-  templateUrl: './soccer.component.html',
-  styleUrl: './soccer.component.css'
+    selector: 'app-soccer',
+    imports: [RouterOutlet],
+    templateUrl: './soccer.component.html',
+    styleUrl: './soccer.component.css'
 })
 export class SoccerComponent {
 

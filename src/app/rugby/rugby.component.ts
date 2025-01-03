@@ -3,11 +3,10 @@ import { RugbyService } from './rugby.service';
 import { NgFor } from '@angular/common';
 
 @Component({
-  selector: 'app-rugby',
-  standalone: true,
-  imports: [NgFor],
-  templateUrl: './rugby.component.html',
-  styleUrl: './rugby.component.css'
+    selector: 'app-rugby',
+    imports: [NgFor],
+    templateUrl: './rugby.component.html',
+    styleUrl: './rugby.component.css'
 })
 export class RugbyComponent {
 
