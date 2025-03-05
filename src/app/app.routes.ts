@@ -6,6 +6,7 @@ import { BallComponent } from './soccer/ball/ball.component';
 import { SockComponent } from './soccer/sock/sock.component';
 import { ShoeComponent } from './soccer/shoe/shoe.component';
 import { resetFakeAsyncZone } from '@angular/core/testing';
+import { CounterComponent } from './counter/counter.component';
 
 export const routes: Routes = [
   { path:'', redirectTo:'home', pathMatch:'full'},
@@ -21,4 +22,5 @@ export const routes: Routes = [
     ]
   },
   { path: 'rugby', loadComponent: () => import('./rugby/rugby.component').then((y) => y.RugbyComponent) },
+  { path: 'counter', component: CounterComponent },
 ];
